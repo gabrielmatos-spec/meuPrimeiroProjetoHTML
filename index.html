@@ -1,66 +1,25 @@
+html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tela de Login</title>
+        <link rel="stylesheet" href="CSS/global.css">
+    </head>
+    <body>
+        <form action="home.html" method="get">
+        <h1>Login</h1>
+        <form>
+            <label form="nomeUsuario">Usuário:</label>
+            <input name="nomeUsuario" type="text" required><br><br>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <style>
-    
-form { text-align: center;}
+            <label form="senhaUsuario">Senha:</label>
+            <input name="senhaUsuario" type="password" required><br><br>
 
-p { margin: 10px 0;}
+            <input name="logadoUsuario" type="checkbox" value="sim">
+            <label form="logadoUsuario">Manter Logado</label><br>
 
-body { background: beige;
-      font-family: Arial, sans-serif;
-      font-size: 16px;}
-
-h1 {  color: #333;
-      font-size: 24px;}
-
-button {  background-color: #4CAF50; /* Verde */
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;}
-
-
-
-  </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulários</title>
-</head>
-<body>
-    <form action="#" method="post">
-
-        <fieldset>
-
-            <h1>Login</h1>
-            <p>
-            <label for="usuarioPessoa">Usuário:</label><br>
-            <input name="usuarioPessoa" type="text"><br><br>
-            </p>
-            
-            <p>
-            <label for="senhaPessoa">Senha:</label><br>
-            <input name="senhaPessoa" type="password"><br><br>
-            </p>
-            
-            <p>
-            <input name="manterLogado" type="checkbox" value="manterLogado">
-            <label for="manterLogado">Manter Logado</label><br>
-            </p>
-            
-            <p>
-            <input name="btlogin" type="submit" value="login"><br><br>
-            </p>
-
-            <p>
-            <a href="URL"> Ainda não tem conta?</a>
-            </p>
-
-            <p>
-            <a href="URL"> Esqueceu a senha?</a>
-            </p>
-        </fieldset>
+            <p><button type="submit">Login</button></p>
+            <p><a href="cadastro.html">Ainda não tem conta?</a></p>
+            <p><a href="reset.html">Esqueceu a senha?</a></p>
+        </form>
     </body>
 </html>
